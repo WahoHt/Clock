@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="clock.css">
+  <title>Часики</title>
+ </head>
+ <body>
+    <div class="clock">
+        <div class="hour">
+            <div class="hr" id="hr"></div>
+        </div>
+        <div class="min">
+            <div class="mn" id="mn"></div>
+        </div>
+        <div class="sec">
+            <div class="sc" id="sc"></div>
+        </div>
+    </div>
+    <div id="buttonS">
+        <button id="buttonStart" onclick="startTime()">
+            start
+        </button>
+        <button id="buttonStop" onclick="stopTime()">
+            stop
+        </button>
+    </div>
+ </body>
+ <script src="clock.js"></script>
+</html>
